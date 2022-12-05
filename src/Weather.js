@@ -88,7 +88,7 @@ export default function Weather() {
       <small>
         {" "}
         <a
-          href="https://github.com/morozovanya/weather-app"
+          href="https://github.com/morozovanya/react-weather"
           className="developerLink"
         >
           Open-source code
