@@ -1,12 +1,15 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import Weather from "./Weather.js";
 
 function App() {
   return (
     <div className="App">
-      <Weather />
+      <div className="container">
+        <Weather />
+        </div>
     </div>
   );
 }
